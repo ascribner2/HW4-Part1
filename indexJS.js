@@ -86,8 +86,7 @@ function makeTable() { //table creation function definition
     //multiply all input by 1 to make sure they convert to numbers
 
     //alert($("#table_range").valid());
-    alert(typeof parseInt("5fsd"));
-
+    
     minCol = parseInt(document.getElementById('min_col').value);
     maxCol = parseInt(document.getElementById('max_col').value);
     minRow = parseInt(document.getElementById('min_row').value);
